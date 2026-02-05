@@ -40,7 +40,6 @@ class NoteTile extends StatelessWidget {
           ),
           trailing: Builder(
             builder: (context) {
-              // Capture the context that can pop the popover
               return IconButton(
                 icon: Icon(
                   Icons.more_vert,
